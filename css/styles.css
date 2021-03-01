@@ -34,6 +34,7 @@ h3 {
 #profile-picture {
   width: 170px;
   border-radius: 10%;
+  margin-bottom: 4.5rem;
 }
 
 .ArtworksImages {
@@ -74,7 +75,7 @@ h3 {
 /* Navigation Bar */
 
 .navbar {
-  padding-bottom: 4.5rem;
+  padding-bottom: 1rem;
 }
 
 .navbar-brand {
