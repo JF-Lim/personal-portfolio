@@ -17,35 +17,28 @@ h3 {
   margin-bottom: 1.5rem;
 }
 
+/* Homepage */
 .icon {
   max-width: 130px;
   max-height: 130px;
   margin-bottom: 1rem;
 }
 
-.button {
-  color: white;
-  text-decoration: none;
-  background-color: #f8aa27;
-  padding: 4px 7px 4px 7px;
-  border-radius: 10px
-}
 
 #profile-picture {
   width: 170px;
   border-radius: 10%;
+  margin-top: 1rem;
   margin-bottom: 4.5rem;
 }
 
+/* Artworks */
 .ArtworksImages {
   max-width: 340px;
   max-height: 340px;
   margin-bottom: 2rem;
 }
 
-#artworks {
-  padding: 0;
-}
 /* headings */
 .big-heading {
   font-size: 3.5rem;
@@ -56,6 +49,16 @@ h3 {
 /* Containers */
 .container-fluid {
   padding: 5% 15%;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 3%;
+    text-align: left;
+  }
+
+.feature-box {
+  padding: 2%;
+  text-align: center;
 }
 
 /* Sections */
@@ -72,8 +75,23 @@ h3 {
   background-color: #fff;
 }
 
-/* Navigation Bar */
+@media (prefers-color-scheme: dark) {
+  .coloured-section {
+    background-color: #021637;
+    color: #fff;
+  }
+  .light-coloured-section {
+    background-color: #04317E;
+    color: #fff;
+  }
+  .white-section {
+    background-color: #064ABB;
+    color: #fff;
+  }
+}
 
+
+/* Navigation Bar */
 .navbar {
   padding-bottom: 1rem;
 }
@@ -90,17 +108,4 @@ h3 {
 
 .nav-link {
   font-size: 1.2rem;
-}
-
-/* Title Section */
-#title .container-fluid {
-    padding: 3% 15% 3%;
-    text-align: left;
-  }
-
-/* Features Section */
-
-.feature-box {
-  padding: 2%;
-  text-align: center;
 }
