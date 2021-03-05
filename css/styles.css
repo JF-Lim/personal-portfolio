@@ -43,13 +43,13 @@ h3 {
   margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
   .Sketch-images {
     width: 500px;
   }
 }
 
-@media only screen and (max-width: 770px) {
+@media all and (max-width: 770px) {
   .Sketch-images {
     width: 320px;
   }
