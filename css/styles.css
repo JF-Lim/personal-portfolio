@@ -39,19 +39,22 @@ h3 {
 }
 
 .Sketch-images {
-  max-width: 600px;
+  max-width: 340px;
+  max-height: 340px;
   margin-bottom: 2rem;
 }
 
-@media all and (max-width: 1000px) {
+@media (min-width: 680px) {
   .Sketch-images {
-    width: 500px;
+    max-width: 440px;
+    margin-bottom: 2rem;
   }
 }
 
-@media all and (max-width: 770px) {
+@media (min-width: 920px) {
   .Sketch-images {
-    width: 320px;
+    max-width: 660px;
+    margin-bottom: 2rem;
   }
 }
 
