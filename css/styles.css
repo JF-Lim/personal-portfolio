@@ -29,7 +29,7 @@ h3 {
   }
 }
 
-.white-section, .light-coloured-section {
+.white-section, .light-coloured-section, .big-heading, h3 {
   animation: transitionIn 1.2s;
 }
 
@@ -41,6 +41,7 @@ h3 {
 }
 
 #profile-picture {
+  animation: transitionIn 1.2s;
   width: 170px;
   border-radius: 10%;
   margin-top: 1rem;
